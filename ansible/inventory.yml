@@ -28,7 +28,7 @@ loggingFilter='sync=warn,afg=warn,babe=warn'
 [validator-2]
 51.89.172.3
 
-[validator-1:vars]
+[validator-:vars]
 ansible_user=ansible
 # Preferably use a private telemetry server
 telemetryUrl=wss://telemetry.blackshakes.net/submit/
